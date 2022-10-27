@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(47, 103, 119);
+}
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+}
+#buttons-div {
+  width: 150px;
+  margin: auto;
+}
+button {
+  width: 60px;
+  height: 30px;
+  margin: 5px;
+  font-weight: 900;
+  cursor: pointer;
+}
+#yes {
+  background-color: rgb(144, 253, 144);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#yes:hover {
+  filter: saturate(150%);
+}
+#no {
+  background-color: rgb(255, 163, 163);
+  border: 1px solid black;
+  border-radius: 5px;
+  position: absolute;
+}
+#no:hover {
+  filter: saturate(150%);
+}
+#result {
+  text-align: center;
+  margin-top: 50px;
+  color: aliceblue;
+  font-size: 20px;
+}
